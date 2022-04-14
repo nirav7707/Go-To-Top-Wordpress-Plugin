@@ -1,0 +1,52 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "plugin-go-to-top/go-to-top-block",
+	"version": "0.1.0",
+	"title": "Go To Top Block",
+	"category": "design",
+	"icon": "arrow-up-alt",
+	"description": "Add button at the end of page by clicking it will scroll to top",
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true,
+			"gradients": true,
+			"link": true
+		},
+		"spacing": {
+			"padding":true,
+			"margin":true
+		},
+		"typography": {
+			"fontSize": true
+		}
+	},
+	"attributes": {
+		"borderColor":{
+			"type":"string",
+			"default":"black"
+		},
+		"borderRadius":{
+			"type":"string",
+			"default":"0"
+		},
+		"borderWidth":{
+			"type":"string",
+			"default":"0"
+		},
+		"borderStyle":{
+			"type":"string",
+			"default":"solid"
+		},
+		"content":{
+			"type":"string"
+		}
+	},
+	"textdomain": "go-to-top",
+	"script":"file:./go-to-top.js",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

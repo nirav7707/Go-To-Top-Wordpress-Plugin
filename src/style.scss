@@ -1,0 +1,27 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-plugin-go-to-top-go-to-top-block {
+	position: fixed;
+	bottom: 1.5rem;
+	right: 1.5rem;
+	z-index: 999;
+	display: inline-block;
+	width: fit-content;
+	height: fit-content;
+	padding: 5px;
+	cursor: pointer;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: all 0.5s ease;
+}
+
+.showbtn{
+	opacity: 1;
+	transform: translateY(0);
+}
+

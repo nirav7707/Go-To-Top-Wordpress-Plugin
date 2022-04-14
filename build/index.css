@@ -1,0 +1,33 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-plugin-go-to-top-go-to-top-block {
+  position: absolute !important;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 999;
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 1;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+}
+
+.showbtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=index.css.map*/

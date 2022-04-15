@@ -1,4 +1,4 @@
-function abc() {
+function loadAfterDomLoaded() {
 	var el = document.querySelector(".wp-block-plugin-go-to-top-go-to-top-block");
 
 	function scrollDoc() {
@@ -22,4 +22,4 @@ function abc() {
 
 	el.classList.remove("showbtn");
 }
-document.addEventListener("DOMContentLoaded", abc);
+document.addEventListener("DOMContentLoaded", loadAfterDomLoaded);
